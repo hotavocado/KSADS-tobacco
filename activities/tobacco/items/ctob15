@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "ctob15",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "### Distress/Impairment\r\n\r\nPlease look at Participant Card 8: Distress/Impairment. \r\n\r\n _INTERVIEWER: Remind child how to use scale, if necessary._",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

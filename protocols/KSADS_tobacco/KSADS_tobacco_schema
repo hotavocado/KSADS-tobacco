@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-tobacco/master/protocols/KSADS_tobacco/KSADS_tobacco_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_tobacco_schema",
+    "skos:prefLabel": "Tobacco",
+    "schema:description": "Tobacco section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-tobacco/master/protocols/KSADS_tobacco/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "tobacco",
+                "isAbout": "tobacco",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "tobacco"
+        ],
+        "shuffle": false
+    }
+}

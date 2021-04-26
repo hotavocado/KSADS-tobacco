@@ -1,0 +1,475 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-tobacco/master/activities/tobacco/tobacco_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "tobacco_schema",
+    "skos:prefLabel": "Tobacco",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "tobacco_title",
+                "isAbout": "tobacco_title",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob001",
+                "isAbout": "dctob001",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob003",
+                "isAbout": "dctob003",
+                "isVis": true
+            },
+            {
+                "variableName": "ctob1",
+                "isAbout": "ctob1",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob010",
+                "isAbout": "dctob010",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob011",
+                "isAbout": "dctob011",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob013",
+                "isAbout": "dctob013",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob017",
+                "isAbout": "dctob017",
+                "isVis": true
+            },
+            {
+                "variableName": "dctob018",
+                "isAbout": "dctob018",
+                "isVis": "dctob017 == '0'"
+            },
+            {
+                "variableName": "dctob019",
+                "isAbout": "dctob019",
+                "isVis": "dctob018.includes(10)"
+            },
+            {
+                "variableName": "dctob021",
+                "isAbout": "dctob021",
+                "isVis": "dctob017 == '0'"
+            },
+            {
+                "variableName": "dctob023",
+                "isAbout": "dctob023",
+                "isVis": "dctob017 == '0'"
+            },
+            {
+                "variableName": "dctob025",
+                "isAbout": "dctob025",
+                "isVis": "dctob017 == '0'"
+            },
+            {
+                "variableName": "ctob3",
+                "isAbout": "ctob3",
+                "isVis": "dctob017 == '0'"
+            },
+            {
+                "variableName": "dctob027",
+                "isAbout": "dctob027",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "ctob4",
+                "isAbout": "ctob4",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob031",
+                "isAbout": "dctob031",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob032",
+                "isAbout": "dctob032",
+                "isVis": "dctob031 == '1'"
+            },
+            {
+                "variableName": "ctob5",
+                "isAbout": "ctob5",
+                "isVis": "dctob031 == '1'"
+            },
+            {
+                "variableName": "ctob6",
+                "isAbout": "ctob6",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob036",
+                "isAbout": "dctob036",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob037",
+                "isAbout": "dctob037",
+                "isVis": "dctob036 == '1'"
+            },
+            {
+                "variableName": "dctob038",
+                "isAbout": "dctob038",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob039",
+                "isAbout": "dctob039",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob040",
+                "isAbout": "dctob040",
+                "isVis": "dctob039 == '1'"
+            },
+            {
+                "variableName": "dctob041",
+                "isAbout": "dctob041",
+                "isVis": "dctob039 == '1'"
+            },
+            {
+                "variableName": "dctob042",
+                "isAbout": "dctob042",
+                "isVis": "dctob039 == '1'"
+            },
+            {
+                "variableName": "dctob043",
+                "isAbout": "dctob043",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob044",
+                "isAbout": "dctob044",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob045",
+                "isAbout": "dctob045",
+                "isVis": "dctob044 == '1'"
+            },
+            {
+                "variableName": "dctob046",
+                "isAbout": "dctob046",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob047",
+                "isAbout": "dctob047",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob048",
+                "isAbout": "dctob048",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob049",
+                "isAbout": "dctob049",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob050",
+                "isAbout": "dctob050",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob051",
+                "isAbout": "dctob051",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob052",
+                "isAbout": "dctob052",
+                "isVis": "dctob051 == '1'"
+            },
+            {
+                "variableName": "dctob053",
+                "isAbout": "dctob053",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob054",
+                "isAbout": "dctob054",
+                "isVis": "dctob053 == '1'"
+            },
+            {
+                "variableName": "dctob055",
+                "isAbout": "dctob055",
+                "isVis": "dctob036 == '1' || dctob038 == '1' || dctob039 == '1'  || dctob043 == '1' || dctob044 == '1'  || dctob046 == '1' || dctob047 == '1' || dctob048 == '1'  || dctob049 == '1' || dctob050 == '1'  || dctob051 == '1'  || dctob053 == '1'"
+            },
+            {
+                "variableName": "ctob10",
+                "isAbout": "ctob10",
+                "isVis": "dctob036 == '1' || dctob038 == '1' || dctob039 == '1'  || dctob043 == '1' || dctob044 == '1'  || dctob046 == '1' || dctob047 == '1' || dctob048 == '1'  || dctob049 == '1' || dctob050 == '1'  || dctob051 == '1'  || dctob053 == '1'"
+            },
+            {
+                "variableName": "dctob057",
+                "isAbout": "dctob057",
+                "isVis": "dctob036 == '1' || dctob038 == '1' || dctob039 == '1'  || dctob043 == '1' || dctob044 == '1'  || dctob046 == '1' || dctob047 == '1' || dctob048 == '1'  || dctob049 == '1' || dctob050 == '1'  || dctob051 == '1'  || dctob053 == '1'"
+            },
+            {
+                "variableName": "dctob059",
+                "isAbout": "dctob059",
+                "isVis": "dctob036 == '1' || dctob038 == '1' || dctob039 == '1'  || dctob043 == '1' || dctob044 == '1'  || dctob046 == '1' || dctob047 == '1' || dctob048 == '1'  || dctob049 == '1' || dctob050 == '1'  || dctob051 == '1'  || dctob053 == '1'"
+            },
+            {
+                "variableName": "dctob060",
+                "isAbout": "dctob060",
+                "isVis": "dctob059 == '1'"
+            },
+            {
+                "variableName": "dctob061",
+                "isAbout": "dctob061",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob062",
+                "isAbout": "dctob062",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "ctob13",
+                "isAbout": "ctob13",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "ctob15",
+                "isAbout": "ctob15",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob066",
+                "isAbout": "dctob066",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob067",
+                "isAbout": "dctob067",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob068",
+                "isAbout": "dctob068",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "dctob069",
+                "isAbout": "dctob069",
+                "isVis": "ctob3 !== 1"
+            },
+            {
+                "variableName": "ctob18",
+                "isAbout": "ctob18",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob070",
+                "isAbout": "dctob070",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob071",
+                "isAbout": "dctob071",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob072",
+                "isAbout": "dctob072",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob073",
+                "isAbout": "dctob073",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob074",
+                "isAbout": "dctob074",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob075",
+                "isAbout": "dctob075",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob077",
+                "isAbout": "dctob077",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob078",
+                "isAbout": "dctob078",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob079",
+                "isAbout": "dctob079",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob080",
+                "isAbout": "dctob080",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob081",
+                "isAbout": "dctob081",
+                "isVis": "dctob080 == '0'"
+            },
+            {
+                "variableName": "ctob20",
+                "isAbout": "ctob20",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob085",
+                "isAbout": "dctob085",
+                "isVis": "ctob20.includes(3)"
+            },
+            {
+                "variableName": "dctob086",
+                "isAbout": "dctob086",
+                "isVis": "dctob069 == '1'"
+            },
+            {
+                "variableName": "dctob087",
+                "isAbout": "dctob087",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob088",
+                "isAbout": "dctob088",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob089",
+                "isAbout": "dctob089",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob090",
+                "isAbout": "dctob090",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob091",
+                "isAbout": "dctob091",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob092",
+                "isAbout": "dctob092",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob093",
+                "isAbout": "dctob093",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "dctob094",
+                "isAbout": "dctob094",
+                "isVis": "dctob086 == '1'"
+            },
+            {
+                "variableName": "ctob_end",
+                "isAbout": "ctob_end",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "tobacco_title",
+            "dctob001",
+            "dctob003",
+            "ctob1",
+            "dctob010",
+            "dctob011",
+            "dctob013",
+            "dctob017",
+            "dctob018",
+            "dctob019",
+            "dctob021",
+            "dctob023",
+            "dctob025",
+            "ctob3",
+            "dctob027",
+            "ctob4",
+            "dctob031",
+            "dctob032",
+            "ctob5",
+            "ctob6",
+            "dctob036",
+            "dctob037",
+            "dctob038",
+            "dctob039",
+            "dctob040",
+            "dctob041",
+            "dctob042",
+            "dctob043",
+            "dctob044",
+            "dctob045",
+            "dctob046",
+            "dctob047",
+            "dctob048",
+            "dctob049",
+            "dctob050",
+            "dctob051",
+            "dctob052",
+            "dctob053",
+            "dctob054",
+            "dctob055",
+            "ctob10",
+            "dctob057",
+            "dctob059",
+            "dctob060",
+            "dctob061",
+            "dctob062",
+            "ctob13",
+            "ctob15",
+            "dctob066",
+            "dctob067",
+            "dctob068",
+            "dctob069",
+            "ctob18",
+            "dctob070",
+            "dctob071",
+            "dctob072",
+            "dctob073",
+            "dctob074",
+            "dctob075",
+            "dctob077",
+            "dctob078",
+            "dctob079",
+            "dctob080",
+            "dctob081",
+            "ctob20",
+            "dctob085",
+            "dctob086",
+            "dctob087",
+            "dctob088",
+            "dctob089",
+            "dctob090",
+            "dctob091",
+            "dctob092",
+            "dctob093",
+            "dctob094",
+            "ctob_end"
+        ],
+        "shuffle": false
+    }
+}

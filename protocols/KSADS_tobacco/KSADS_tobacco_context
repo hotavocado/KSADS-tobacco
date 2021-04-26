@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/KSADS-tobacco/master/activities/",
+        "tobacco": {
+            "@id": "activity_path:tobacco/tobacco_schema",
+            "@type": "@id"
+        }
+    }
+}
